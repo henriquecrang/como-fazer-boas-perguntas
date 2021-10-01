@@ -37,6 +37,32 @@ Se você decidir nos pedir ajuda, você não quer ser um dos otários. Você tam
 (Melhorias neste guia são bem-vindas. Você pode enviar sugestões para [esr@thyrsus.com](mailto:esr@thyrsus.com) ou [respond-auto@linuxmafia.com](mailto:respond-auto@linuxmafia.com). Observe, entretanto, que este documento não pretende ser um guia geral para [netiqueta](http://www.ietf.org/rfc/rfc1855.txt) e geralmente rejeitaremos sugestões que não estão especificamente relacionadas com a obtenção de respostas úteis em um fórum técnico.)
 
 ## Antes de perguntar
+
+Antes de fazer uma pergunta técnica por e-mail, em um grupo ou em um fórum online, faça o seguinte:
+
+...1. Tente encontrar uma resposta pesquisando os históricos do fórum ou lista de e-mails onde você planeja postar.
+...1. Tente encontrar uma resposta pesquisando na web.
+...1. Tente encontrar uma resposta lendo o manual.
+...1. Tente encontrar uma resposta lendo um FAQ.
+...1. Tente encontrar uma resposta investigando e testando.
+...1. Tente encontrar uma resposta perguntando a um amigo habilidoso.
+...1. Se você é um programador, tente encontrar uma resposta lendo o código-fonte.
+
+Ao fazer sua pergunta, mostre o fato de que você fez essas coisas primeiro; isso ajudará a estabelecer que você não está sendo uma esponja preguiçosa e desperdiçando o tempo das pessoas. Melhor ainda, mostre o que você aprendeu ao fazer essas coisas. Gostamos de responder a perguntas para pessoas que demonstraram que podem aprender com as respostas.
+
+Use táticas como fazer uma pesquisa no Google com o texto de qualquer mensagem de erro que você receber (pesquisar tanto nos grupos de email do Google como em páginas da Web). Isso pode levá-lo diretamente a documentação ou a mensagens passadas que respondam à sua pergunta. Mesmo que isso não aconteça, dizer "Pesquisei a seguinte frase no Google, mas não encontrei nada que parecesse promissor" é uma boa coisa a fazer em uma mensagem solicitando ajuda, pelo menos porque já indica o que as pesquisas não resolveram. Isso também ajudará a direcionar futuramente outras pessoas com problemas semelhantes para o seu tópico, fazendo os termos de pesquisa apontarem para o que esperamos será a resolução do problema levantado.
+
+Não tenha pressa. Não espere ser capaz de resolver um problema complicado com alguns segundos de busca no Google. Leia e entenda as perguntas frequentes, sente-se, relaxe e reflita sobre o problema antes de entrar em contato com especialistas. Confie em nós, eles saberão, a partir de suas perguntas, o quanto você leu e refletiu, e estarão mais dispostos a ajudar se você vier preparado. Não dispare instantaneamente todo o seu arsenal de perguntas só porque sua primeira pesquisa não apresentou nenhuma resposta (ou muitas).
+
+Prepare sua pergunta. Pense sobre isso. Perguntas que parecem precipitadas obtêm respostas precipitadas ou nenhuma resposta. Quanto mais você fizer para demonstrar que pensou e se esforçou para resolver seu problema antes de buscar ajuda, maior será a probabilidade de realmente obter ajuda.
+
+Cuidado para não fazer a pergunta errada. Se você fizer uma pergunta baseada em suposições errôneas, é bem provável que um hacker aleatório responda com uma resposta literalmente inútil enquanto pensa "Pergunta estúpida ...", e espera que a experiência de obter como resposta o que você merece, em vez do que você precisava, vá te ensinar uma lição.
+
+Nunca presuma que você tem direito a uma resposta. Você não tem; afinal, você não está pagando pelo serviço. Você obterá uma resposta, se conquistá-la, fazendo uma pergunta substancial, interessante e instigante - que contribua implicitamente para a experiência da comunidade, em vez de apenas exigir passivamente o conhecimento de outras pessoas.
+
+Por outro lado, deixar claro que você pode e deseja ajudar no processo de desenvolvimento da solução é um bom começo. “Alguém pode me dar uma direção?”, “O que está faltando em meu exemplo?” e “Qual site eu deveria ter pesquisado?” são perguntas mais propensas a obter respostas do que “Por favor me diga exatamente o que eu devo fazer”, pois aqui você está deixando claro que está realmente disposto a concluir o processo sozinho se alguém puder simplesmente apontar a direção certa.
+
+
 ## Quando estiver perguntando
 ### Escolha o local cuidadosamente
 ### Stack Overflow
