@@ -40,13 +40,13 @@ Se você decidir nos pedir ajuda, você não quer ser um dos otários. Você tam
 
 Antes de fazer uma pergunta técnica por e-mail, em um grupo ou em um fórum online, faça o seguinte:
 
-...1. Tente encontrar uma resposta pesquisando os históricos do fórum ou lista de e-mails onde você planeja postar.
-...1. Tente encontrar uma resposta pesquisando na web.
-...1. Tente encontrar uma resposta lendo o manual.
-...1. Tente encontrar uma resposta lendo um FAQ.
-...1. Tente encontrar uma resposta investigando e testando.
-...1. Tente encontrar uma resposta perguntando a um amigo habilidoso.
-...1. Se você é um programador, tente encontrar uma resposta lendo o código-fonte.
+1. Tente encontrar uma resposta pesquisando os históricos do fórum ou lista de e-mails onde você planeja postar.
+1. Tente encontrar uma resposta pesquisando na web.
+1. Tente encontrar uma resposta lendo o manual.
+1. Tente encontrar uma resposta lendo um FAQ.
+1. Tente encontrar uma resposta investigando e testando.
+1. Tente encontrar uma resposta perguntando a um amigo habilidoso.
+1. Se você é um programador, tente encontrar uma resposta lendo o código-fonte.
 
 Ao fazer sua pergunta, mostre o fato de que você fez essas coisas primeiro; isso ajudará a estabelecer que você não está sendo uma esponja preguiçosa e desperdiçando o tempo das pessoas. Melhor ainda, mostre o que você aprendeu ao fazer essas coisas. Gostamos de responder a perguntas para pessoas que demonstraram que podem aprender com as respostas.
 
