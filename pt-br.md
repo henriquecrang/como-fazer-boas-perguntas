@@ -2,7 +2,7 @@
 
 ## Traduções
 
-Existem traduções deste texto para diversos idiomas listadas em http://www.catb.org/~esr/faqs/smart-questions.html#code . Caso você deseje copiar, hospedar, traduzir ou recortar esse documento, por favor veja a [política de direitos autoriais](http://www.catb.org/~esr/copying.html).
+Existem traduções deste texto para diversos idiomas listadas em http://www.catb.org/~esr/faqs/smart-questions.html . Caso você deseje copiar, hospedar, traduzir ou recortar esse documento, por favor veja a [política de direitos autoriais](http://www.catb.org/~esr/copying.html).
 
 ## Aviso
 
@@ -186,8 +186,41 @@ Se você está escrevendo em inglês, mas esse é um segundo idioma para você, 
 * Publiquei minha pergunta em $LANGUAGE e em inglês. Ficarei feliz em traduzir as respostas, se você falar apenas uma ou outra.
 
 ### Envie perguntas em formatos acessíveis e padronizados
+
+Se você tornar sua pergunta artificialmente difícil de ler, é mais provável que ela seja ignorada em favor de outra que não seja. Então:
+
+* Envie mensagens em texto simples, não em HTML. (Não é difícil desativar o HTML em emails.)
+* Anexos MIME são geralmente OK, mas apenas se forem de conteúdo real (como um arquivo de origem anexado ou patch), e não meramente clichê gerado por seu cliente de e-mail (como outra cópia de sua mensagem).
+* Não envie e-mail em que parágrafos inteiros sem quebras de linha. (Isso torna muito difícil responder apenas a parte da mensagem.) Suponha que seus respondentes lerão e-mails em telas de texto de 80 caracteres e defina a quebra de linha de acordo, para algo menos que 80.
+* No entanto, não agrupe dados (como despejos de arquivo de log ou transcrições de sessão) em qualquer largura de coluna fixa. Os dados devem ser incluídos no estado em que se encontram, para que os leitores possam ter certeza de que estão vendo o que você viu.
+* Não use a codificação MIME Quoted-Printable em um fórum em inglês. Essa codificação pode ser necessária quando você está postando em um idioma que o ASCII não cobre, mas muitos agentes de e-mail não a suportam. Quando eles quebram, todos aqueles "=20" espalhados pelo texto são feios e perturbam - ou podem sabotar ativamente a semântica do seu texto.
+* Nunca, jamais espere que os hackers sejam capazes de ler formatos de documentos proprietários fechados, como Microsoft Word ou Excel. A maioria dos hackers reage a isso tão bem quanto você faria se uma pilha fervente de merda de porco fosse despejada na sua porta. Mesmo quando podem lidar com isso, eles se ressentem de ter que fazer isso.
+* Se você estiver enviando e-mail de uma máquina Windows, desative o problemático recurso “Smart Quotes” da Microsoft (em Ferramentas> Opções de autocorreção, desmarque a caixa de seleção entre aspas em AutoFormatação ao digitar). Assim, você evitará espalhar caracteres ilegíveis em seu e-mail.
+* Em fóruns online, não abuse dos recursos “smiley” e “HTML” (quando eles estiverem presentes). Um ou dois emoticons geralmente são aceitáveis, mas um texto colorido e extravagante tende a fazer as pessoas pensarem que você é um idiota. O uso excessivo de smileys, cores e fontes fará com que você pareça uma adolescente risonha, o que geralmente não é uma boa ideia, a menos que você esteja mais interessado em sexo do que em respostas.
+
+Se você estiver usando um cliente de e-mail de interface gráfica para usuários, como Netscape Messenger, MS Outlook ou algo semelhante, tome cuidado, pois ele pode violar essas regras quando usado com suas configurações padrão. A maioria desses clientes tem um comando “Exibir código-fonte” em seu menu. Use isso em alguma mensagem de sua caixa de saída, verificando o envio de texto simples sem lixo desnecessário.
+
 ### Seja preciso e informativo sobre o seu problema
+
+* Descreva os sintomas do seu problema ou bug com cuidado e clareza.
+* Descreva o ambiente em que ocorre (máquina, sistema operacional, aplicativo, qualquer que seja). Forneça a distribuição e a versão do seu fornecedor (por exemplo: “Fedora Core 7”, “Slackware 9.1”, etc.).
+* Descreva a pesquisa que você fez para tentar entender o problema antes de fazer a pergunta.
+* Descreva as etapas de diagnóstico que você executou para tentar identificar o problema sozinho antes de fazer a pergunta.
+* Descreva quaisquer alterações recentes possivelmente relevantes na configuração do seu computador ou software.
+* Se possível, forneça uma maneira de reproduzir o problema em um ambiente controlado.
+
+Faça o melhor que puder para antecipar as perguntas que um hacker fará e responda com antecedência em seu pedido de ajuda.
+
+Dar aos hackers a capacidade de reproduzir o problema em um ambiente controlado é especialmente importante se você estiver relatando algo que acredita ser um bug no código. Quando você faz isso, suas chances de obter uma resposta útil e a velocidade com que você provavelmente obterá essa resposta aumentam tremendamente.
+
+Simon Tatham escreveu um excelente ensaio intitulado [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). Eu recomendo fortemente que você o leia.
+
 ### Volume não é precisão
+
+Você precisa ser preciso e informativo. Esse fim não é alcançado simplesmente despejando enormes volumes de código ou dados em um pedido de ajuda. Se você tiver um caso de teste grande e complicado que está quebrando um programa, tente fatiá-lo e torná-lo o menor possível.
+
+Isso é útil por pelo menos três motivos. Um: ser visto investindo esforços para simplificar a pergunta torna mais provável que você obtenha uma resposta. Dois: simplificar a pergunta torna mais provável que você obtenha uma resposta útil. Três: No processo de refinar seu relato de bug, você mesmo pode desenvolver uma correção ou solução alternativa.
+
 ### Não se apresse em dizer que encontrou um bug
 ### Se diminuir não substitui fazer seu dever de casa
 ### Descreva os sintomas do problema, não suas suposições
@@ -201,10 +234,12 @@ Se você está escrevendo em inglês, mas esse é um segundo idioma para você, 
 ### Não sinalize sua questão como “Urgente”, mesmo que realmente seja para você
 ### Cortesia nunca é demais e às vezes ajuda
 ### Envie posteriormente uma breve nota sobre a solução
+
 ## Como interpretar respostas
 ### RTFM e STFW: Como saber se você fez besteira
 ### Se você não entender...
 ### Lidando com grosseria
+
 ## Sobre não reagir como um otário
 ## Perguntas que não devem ser feitas
 ## Boas e más perguntas
