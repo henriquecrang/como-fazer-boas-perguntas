@@ -222,24 +222,172 @@ Você precisa ser preciso e informativo. Esse fim não é alcançado simplesment
 Isso é útil por pelo menos três motivos. Um: ser visto investindo esforços para simplificar a pergunta torna mais provável que você obtenha uma resposta. Dois: simplificar a pergunta torna mais provável que você obtenha uma resposta útil. Três: No processo de refinar seu relato de bug, você mesmo pode desenvolver uma correção ou solução alternativa.
 
 ### Não se apresse em dizer que encontrou um bug
+
+Quando você estiver tendo problemas com um software, não diga que encontrou um bug, a menos que esteja muito, muito seguro de sua afirmação. Dica: a menos que você possa fornecer um patch de código-fonte que corrija o problema, ou um teste de regressão em uma versão anterior que demonstre um comportamento incorreto, você provavelmente não tem certeza. Isso se aplica a páginas da web e documentação também; se você encontrou um “bug” de documentação, você deve fornecer o texto de substituição e em quais páginas ele deve ir.
+
+Lembre-se de que há muitos outros usuários que não estão enfrentando o seu problema. Caso contrário, você teria aprendido sobre isso lendo a documentação e pesquisando na Web (você fez isso antes de reclamar, não fez?). Isso significa que muito provavelmente é você quem está fazendo algo errado, não o software.
+
+As pessoas que escreveram o software trabalham muito para que ele funcione da melhor forma possível. Se você alegar que encontrou um bug, estará contestando a competência deles, o que pode ofender alguns deles, mesmo se você estiver correto. É especialmente pouco diplomático gritar “bug” na linha Assunto.
+
+Ao fazer sua pergunta, é melhor escrever como se você presumisse que está fazendo algo errado, mesmo se tiver certeza de ter encontrado um bug real. Se realmente houver um bug, você ouvirá sobre ele na resposta. Comporte-se para que os mantenedores peçam desculpas a você se o bug for real, ao invés de para que você deva a eles um pedido de desculpas se você errar.
+
 ### Se diminuir não substitui fazer seu dever de casa
+
+Algumas pessoas que entendem que não deveriam se comportar de maneira rude ou arrogante, exigindo uma resposta, vão para o extremo oposto se diminuindo. “Eu sei que sou apenas um perdedor novato patético, mas ...”. Isso é perturbador e inútil. É especialmente irritante quando associado à imprecisão sobre o problema real.
+
+Não perca seu tempo, ou o nosso, com comportamentos rudes primitivos. Em vez disso, apresente os fatos concretos e sua pergunta tão claramente quanto possível. Essa é uma maneira melhor de se posicionar do que se diminuir.
+
+Às vezes, os fóruns da Web têm locais separados para perguntas de novatos. Se você acha que tem uma pergunta de novato, vá até lá. Mas não se diminua lá também.
+
 ### Descreva os sintomas do problema, não suas suposições
+
+Não é útil dizer aos hackers o que você acha que está causando o problema. (Se suas teorias de diagnóstico fossem tão importantes, você consultaria outras pessoas em busca de ajuda?) Portanto, certifique-se de contar a eles os sintomas básicos do que está errado, em vez de suas interpretações e teorias. Deixe-os fazer a interpretação e o diagnóstico. Se você acha que é importante dar seu palpite, rotule-o claramente como tal e descreva por que essa resposta não está funcionando para você.
+
+**Estúpido:**
+
+   Estou recebendo erros SIG11 consecutivos nas compilações do kernel e suspeito de uma rachadura em uma das trilhas da placa-mãe. Qual é a melhor maneira de verificar isso?
+    
+**Esperto:**
+
+   Meu K6 / 233 feito em casa em uma placa-mãe FIC-PA2007 (chipset VIA Apollo VP2) com 256 MB Corsair PC133 SDRAM começa a receber erros SIG11 frequentes cerca de 20 minutos após a inicialização durante o curso de compilações do kernel, mas nunca nos primeiros 20 minutos. A reinicialização não zera essa contagem de tempo, mas desligar durante a noite sim. Trocar toda a RAM não ajudou. A parte relevante de um log típico de sessão de compilação é apresentada a seguir.
+
+Como o ponto anterior parece difícil de entender para muitas pessoas, aqui está uma frase para lembrá-lo: "Todos os diagnosticadores são do Missouri". O lema oficial desse estado americano é "Mostre-me" (obtido em 1899, quando o congressista Willard D. Vandiver disse: "Venho de um país que cultiva milho, algodão, berbigão e democratas, e a eloqüência espumante não me convence nem me satisfaz. Eu sou do Missouri. Você tem que me mostrar. ") No caso dos diagnosticadores, não é uma questão de ceticismo, mas sim uma necessidade literal e funcional de ver o que quer que seja o mais próximo possível da mesma evidência bruta que você vê, mais do que suas suposições e resumos. Mostre-nos.
+
 ### Descreva os sintomas do problema em ordem cronológica
+
+As pistas mais úteis para descobrir algo que deu errado geralmente estão nos eventos imediatamente anteriores. Portanto, seu relato deve descrever precisamente o que você fez e o que a máquina e o software fizeram, levando ao problema. No caso de processos de linha de comando, ter um log de sessão (por exemplo, usando um utilitário de script) e citar as cerca de vinte linhas relevantes é muito útil.
+
+Se o programa que teve problema tiver opções de diagnóstico (como -v para verboso), tente selecionar opções que adicionarão informações úteis de depuração à transcrição. Lembre-se de que mais não é necessariamente melhor; tente escolher um nível de depuração que informará, em vez de afogar o leitor em lixo.
+
+Se sua mensagem acabar sendo longa (mais de quatro parágrafos), pode ser útil declarar sucintamente o problema no início e, em seguida, seguir a história cronológica. Dessa forma, os hackers saberão o que observar ao ler sua mensagem.
+
 ### Descreva o objetivo, não um único passo
+
+Se você está tentando descobrir como fazer algo (em vez de relatar um bug), comece descrevendo o objetivo. Só então descreva a etapa específica em que você está bloqueado.
+
+Freqüentemente, as pessoas que precisam de ajuda técnica têm uma meta de alto nível em mente e ficam presas no que acham que é um caminho específico em direção à meta. Eles vêm buscar ajuda com o passo, mas não percebem que o caminho está errado. Pode ser necessário um esforço substancial para superar isso.
+
+**Estúpido:**
+
+   Como faço para que o seletor de cores no programa FooDraw obtenha um valor RGB hexadecimal?
+   
+**Esperto:**
+
+   Estou tentando substituir a tabela de cores em uma imagem com valores de minha escolha. No momento, a única maneira que vejo de fazer isso é editando cada slot da tabela, mas não consigo fazer com que o seletor de cores do FooDraw obtenha um valor RGB hexadecimal.
+
+A segunda versão da pergunta é inteligente. Permite uma resposta que sugira uma ferramenta mais adequada à tarefa.
+
 ### Não peça para as pessoas responderem por e-mail privado
+
+Os hackers acreditam que a solução de problemas deve ser um processo público e transparente, durante o qual uma primeira tentativa de resposta pode e deve ser corrigida se alguém com mais conhecimento perceber que ela está incompleta ou incorreta. Além disso, os ajudantes recebem parte de sua recompensa por responderem por serem vistos como competentes e bem informados por seus colegas.
+
+Quando você pede uma resposta privada, está interrompendo o processo e a recompensa. Não faça isso. É a escolha do leitor responder em particular - e se ele ou ela o faz, geralmente é porque ele ou ela acha que a pergunta é muito mal formada ou óbvia para ser interessante para os outros.
+
+Existe uma exceção limitada a esta regra. Se você acha que a pergunta é tal que provavelmente obterá muitas respostas muito semelhantes, então as palavras mágicas são “envie-me um e-mail e eu resumirei as respostas para o grupo”. É cortês tentar salvar a lista de discussão ou grupo de uma enxurrada de postagens substancialmente idênticas - mas você tem que manter a promessa de resumir.
+
 ### Seja explícito sobre sua questão
+
+As perguntas abertas tendem a ser percebidas como uma perda de tempo em aberto. As pessoas com maior probabilidade de lhe dar uma resposta útil também são as mais ocupadas (no mínimo porque elas mesmas assumem a maior parte do trabalho). Pessoas assim são alérgicas a sumidores de tempo indefinidos, portanto, tendem a ser alérgicas a perguntas abertas.
+
+É mais provável que você obtenha uma resposta útil se for explícito sobre o que deseja que os leitores façam (fornecer direções, enviar código, verificar seu patch, o que for). Isso concentrará seus esforços e implicitamente colocará um limite superior no tempo e na energia que um leitor deve alocar para ajudá-lo. Isso é bom.
+
+Para entender o mundo em que os especialistas vivem, pense na expertise como um recurso abundante e no tempo para responder como um recurso escasso. Quanto menos tempo você solicitar implicitamente, maior será a probabilidade de obter uma resposta de alguém muito bom e muito ocupado.
+
+Portanto, é útil formular sua pergunta de forma a minimizar o comprometimento de tempo necessário para um especialista respondê-la - mas muitas vezes isso não é a mesma coisa que simplificar a pergunta. Assim, por exemplo, "Você me daria uma indicação para uma boa explicação de X?" geralmente é uma pergunta mais inteligente do que “Você poderia explicar X, por favor?”. Se você tiver algum código com defeito, geralmente é mais inteligente pedir a alguém para explicar o que está errado com ele do que pedir a alguém para corrigi-lo.
+
 ### Ao perguntar sobre código
+
+Não peça a outras pessoas para depurar seu código quebrado sem dar uma dica de que tipo de problema eles deveriam estar procurando. Postar algumas centenas de linhas de código, dizendo "não funciona", fará com que você seja ignorado. Postar uma dúzia de linhas de código, dizendo "após a linha 7, eu esperava ver <x>, mas <y> ocorreu" tem muito mais probabilidade de obter uma resposta.
+
+A maneira mais eficaz de ser preciso sobre um problema de código é fornecer um caso de teste mínimo de demonstração de bug. O que é um caso de teste mínimo? É uma ilustração do problema; código apenas o suficiente para exibir o comportamento indesejável e nada mais. Como você faz um caso de teste mínimo? Se você sabe qual linha ou seção de código está produzindo o comportamento problemático, faça uma cópia e adicione apenas o código de suporte suficiente para produzir um exemplo completo (ou seja, o suficiente para que a fonte seja aceitável para o compilador / interpretador / qualquer aplicativo que o processe) . Se você não puder restringi-lo a uma seção específica, faça uma cópia da fonte e comece a remover os pedaços que não afetam o comportamento problemático. Quanto menor for o seu caso de teste mínimo, melhor (consulte a seção chamada “Volume não é precisão”).
+
+Gerar um caso de teste mínimo realmente pequeno nem sempre será possível, mas tentar é uma boa disciplina. Isso pode ajudá-lo a aprender o que você precisa para resolver o problema sozinho - e mesmo quando isso não acontece, os hackers gostam de ver que você tentou. Isso os tornará mais cooperativos.
+
+Se você deseja apenas uma revisão de código, diga o mesmo com antecedência e certifique-se de mencionar quais áreas você acha que podem precisar de revisão e por quê.
+
 ### Não mande seu dever de casa
+
+Os hackers são bons em identificar questões de dever de casa; a maioria de nós já os fez. Essas questões são para você resolver, para que possa aprender com a experiência. É normal pedir dicas, mas não soluções completas.
+
+Se você suspeitar que recebeu uma questão de dever de casa, mas não consegue resolvê-la de qualquer maneira, tente perguntar em um fórum de grupo de usuários ou (como último recurso) em uma lista / fórum de “usuários” de um projeto. Embora os hackers detectem, alguns dos usuários avançados podem pelo menos dar uma dica.
+    
 ### Elimine perguntas inúteis
+    
+Resista à tentação de fechar seu pedido de ajuda com perguntas semanticamente nulas como "Alguém pode me ajudar?" ou “Existe uma resposta?” Primeiro: se você escreveu a descrição do problema com metade da competência, essas questões abordadas são, na melhor das hipóteses, supérfluas. Segundo: por serem supérfluos, os hackers os consideram irritantes - e provavelmente retornarão respostas logicamente impecáveis, mas desdenhosas, como "Sim, você pode ser ajudado" e "Não, não há ajuda para você".
+
+Em geral, fazer perguntas sim ou não é uma boa coisa a evitar, a menos que você queira uma [resposta sim ou não](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html).
+    
 ### Não sinalize sua questão como “Urgente”, mesmo que realmente seja para você
-### Cortesia nunca é demais e às vezes ajuda
+   
+Isso é problema seu, não nosso. Alegar urgência pode ser contraproducente: a maioria dos hackers simplesmente deleta mensagens com tentativas rudes e egoístas de obter atenção especial e imediata. Além disso, a palavra 'Urgente' (e outras tentativas semelhantes de chamar a atenção na linha de assunto) geralmente acionam filtros de spam - os destinatários pretendidos podem nunca vê-la!
+
+Existe uma semi-exceção. Pode valer a pena mencionar se você estiver usando o programa em algum lugar importante, um lugar que deixará os hackers entusiasmados; Nesse caso, se você estiver sob pressão de tempo, e disser isso com educação, as pessoas podem se interessar o suficiente para responder mais rápido.
+
+Isso é uma coisa muito arriscada de se fazer, no entanto, porque a métrica dos hackers para o que é emocionante provavelmente difere da sua. Postar da Estação Espacial Internacional qualificaria, por exemplo, mas postar em nome de uma causa política ou de caridade que te faça sentir bem quase certamente não. Na verdade, postar “Urgente: ajude-me a salvar as focas bebê peludas!” fará com certeza que você seja evitado ou criticado mesmo por hackers que acham que focas bebê peludas são importantes.
+
+Se você achar isso estranho, releia o resto deste manual repetidamente até entendê-lo antes de postar qualquer coisa. 
+    
+### Gentileza nunca é demais e às vezes ajuda
+    
+Seja gentil. Use “Por favor” e “Obrigado pela sua atenção” ou “Obrigado pela sua consideração”. Deixe claro que você aprecia o tempo que as pessoas gastam ajudando você de graça.
+
+Para ser honesto, isso não é tão importante quanto (e não pode substituir) ser gramaticalmente claro, preciso e descritivo, evitando formatos proprietários etc .; os hackers em geral preferem receber relatórios de bugs um tanto rudes, mas tecnicamente precisos, do que relatos vagos polidos. (Se isso o confunde, lembre-se de que valorizamos uma pergunta pelo que ela nos ensina.)
+
+No entanto, se você tem muitas dificuldades técnicas, a polidez aumenta suas chances de obter uma resposta útil.
+
+(Devemos observar que a única objeção séria que recebemos de hackers veteranos a este COMO FAZER é com relação à nossa recomendação anterior de usar "Agradecemos antecipadamente". Alguns hackers acham que isso conota uma intenção de não agradecer a ninguém depois. Nossa recomendação é dizer “Obrigado antecipadamente” primeiro e agradecer aos respondentes depois, ou expressar cortesia de uma forma diferente, como dizendo “Obrigado pela sua atenção” ou “Obrigado pela sua consideração”.)
+    
 ### Envie posteriormente uma breve nota sobre a solução
 
+Envie uma nota após o problema ter sido resolvido para todos que o ajudaram; diga-lhes como ficou e agradeça novamente por sua ajuda. Se o problema atraiu o interesse geral em uma lista de discussão ou grupo, é apropriado postar o acompanhamento lá.
+
+Idealmente, a resposta deve ser para o tópico iniciado pela postagem da pergunta original e deve ter ‘CORRIGIDO’, ‘RESOLVIDO’ ou uma tag igualmente óbvia na linha de assunto. Em listas de discussão com resposta rápida, um respondente em potencial que vê um tópico sobre o “Problema X” terminando com “Problema X - CORRIGIDO” sabe que não deve perder seu tempo lendo o tópico (a menos que ele pessoalmente considere o Problema X interessante) e, portanto, pode usar esse tempo para resolver um problema diferente.
+
+Sua mensagem posterior não precisa ser longa e complicada; um simples “Olá - foi um cabo de rede com falha! Obrigado a todos. - Bill ”seria melhor do que nada. Na verdade, um breve e doce resumo é melhor do que uma longa dissertação, a menos que a solução tenha profundidade técnica real. Diga qual ação resolveu o problema, mas você não precisa repetir toda a sequência de solução de problemas.
+
+Para problemas com alguma profundidade, é apropriado postar um resumo do histórico de ações realizadas para tentar resolver o problema. Descreva seu veredito final do problema. Descreva o que funcionou como uma solução e indique depois disso becos sem saída evitáveis. Os becos sem saída devem vir após a solução correta e outro material de resumo, em vez de transformar a mensagem em uma história de detetive. Cite os nomes das pessoas que o ajudaram; você fará amigos assim.
+
+Além de ser cortês e informativo, este tipo de mensagem ajudará outras pessoas a pesquisar o arquivo da lista de discussão / grupo / fórum para saber exatamente qual solução o ajudou e, portanto, também pode ajudá-los.
+
+Por último, e não menos importante, esse tipo de mensagem ajuda todos os que assistiram a terem uma sensação satisfatória de encerramento sobre o problema. Se você não é um técnico ou hacker, acredite que esse sentimento é muito importante para os gurus e especialistas em que você pediu ajuda. Narrativas de problemas que terminam em nada não resolvido são coisas frustrantes; os hackers desejam vê-los resolvidos. A boa vontade que esse coçar lhe dá será muito, muito útil na próxima vez que você precisar fazer uma pergunta.
+
+Pense em como você pode evitar que outras pessoas tenham o mesmo problema no futuro. Pergunte a si mesmo se uma documentação ou patch de FAQ ajudaria, e se a resposta for sim, envie esse patch para o mantenedor.
+
+Entre os hackers, esse tipo de bom comportamento de acompanhamento posterior da resolução do problema é na verdade mais importante do que a polidez convencional. É assim que você obtém a reputação de jogar bem com os outros, o que pode ser um recurso muito valioso.
+    
 ## Como interpretar respostas
 ### RTFM e STFW: Como saber se você fez besteira
+    
+Existe uma tradição antiga e sagrada: se você receber uma resposta que diz “RTFM”, a pessoa que a enviou acha que você deveria ter lido a porra do manual.[^NT5] Ele ou ela quase certamente está certo. Vá ler.
+
+RTFM tem um parente mais jovem. Se você receber uma resposta que diz “STFW”, a pessoa que a enviou acha que você deveria ter pesquisado na porra da web.[^NT6] Ele ou ela quase certamente está certo. Vá procurar. (A versão mais branda disso é quando dizem "Google é seu amigo!")
+
+Em fóruns online, você também pode ser instruído a pesquisar os arquivos do fórum. Na verdade, alguém pode até mesmo fazer a gentileza de fornecer um link para o tópico anterior onde esse problema foi resolvido. Mas não confie nesta consideração; faça sua pesquisa no arquivo antes de perguntar.
+
+Freqüentemente, a pessoa que lhe diz para fazer uma pesquisa tem o manual ou a página da web com as informações de que você precisa aberta e está olhando para ela enquanto digita. Essas respostas significam que o respondente acha que (a) as informações de que você precisa são fáceis de encontrar e (b) você aprenderá mais se buscar as informações do que se as tiver de mão beijada.
+
+Você não deve se ofender com isso; pelos padrões do hacker, seu respondente está demonstrando um tipo rude de respeito simplesmente por não ignorá-lo. Em vez disso, você deveria ser grato por essa gentileza carinhosa.
+    
 ### Se você não entender...
+    
+Se você não entender a resposta, não responda imediatamente com um pedido de esclarecimento. Use as mesmas ferramentas que você usou para tentar responder à sua pergunta original (manuais, FAQs, a Web, amigos habilidosos) para entender a resposta. Então, se ainda precisar pedir esclarecimentos, conte o que aprendeu.
+
+Por exemplo, suponha que eu lhe diga: “Parece que você tem um zentry emperrado; você precisará limpá-lo. ” Então: aqui está uma pergunta de acompanhamento ruim: “O que é um zentry?” Aqui está uma boa pergunta de acompanhamento: “OK, eu li a página do manual e os zentries são mencionados apenas nas opções -z e -p. Nenhum deles diz nada sobre limpar zentries. É uma dessas opções ou estou deixando de notar alguma coisa aqui? ”
+    
 ### Lidando com grosseria
 
+Muito do que parece rudeza nos círculos de hackers não tem a intenção de ofender. Em vez disso, é o produto do estilo de comunicação direto, cortando as baboseiras que é natural para pessoas que estão mais preocupadas em resolver problemas do que em fazer os outros se sentirem queridos e acolhidos.
+
+Ao perceber grosseria, tente reagir com calma. Se alguém está realmente agindo mal, é muito provável que uma pessoa sênior da lista ou grupo ou fórum o chame atenção sobre isso. Se isso não acontecer e você perder a paciência, é provável que a pessoa com quem você se irrita esteja se comportando dentro das normas da comunidade hacker e você será considerado o culpado. Isso prejudicará suas chances de obter as informações ou a ajuda que deseja.
+
+Por outro lado, você ocasionalmente encontrará grosserias e posturas totalmente gratuitas. Neste caso, é aceitável bater em babacas reais com bastante força, dissecando seu mau comportamento com um bisturi verbal afiado. Esteja muito, muito certo do que está fazendo antes de tentar isso, no entanto. A linha entre corrigir uma incivilidade e iniciar uma flamewar inútil é tênue o suficiente para que os próprios hackers errem com frequência; se você for um novato ou um estranho, suas chances de evitar tal erro são baixas. Se você está atrás de informações em vez de entretenimento, é melhor manter os dedos longe do teclado do que arriscar.
+
+(Algumas pessoas afirmam que muitos hackers têm uma forma leve de autismo ou Síndrome de Asperger e, na verdade, estão perdendo alguns dos circuitos cerebrais que lubrificam a interação social humana "normal". Isso pode ou não ser verdade. Se você não for um hacker, pode ajudá-lo a lidar com nossas excentricidades se você pensar que temos danos cerebrais. Vá em frente. Não vamos nos importar; gostamos de ser o que somos e geralmente temos um ceticismo saudável em relação aos rótulos clínicos.)
+
+As observações de Jeff Bigler sobre os [filtros diplomáticos](http://www.mit.edu/~jcb/tact.html) também são relevantes e merecem ser lidas.
+
+Na próxima seção, falaremos sobre um problema diferente; o tipo de “grosseria” que você verá quando se comportar mal.
+    
 ## Sobre não reagir como um otário
 ## Perguntas que não devem ser feitas
 ## Boas e más perguntas
@@ -253,3 +401,5 @@ Isso é útil por pelo menos três motivos. Um: ser visto investindo esforços p
 [^NT2]: Stack Exchange é um grupo de sites de perguntas e respostas do qual o Stack Overflow faz parte.
 [^NT3]: É assim inclusive a visualização padrão do GMail, ferramenta atualmente (2021) mais utilizada para leitura de e-mails.
 [^NT4]: Alan Cox é um desenvolvedores mantenedores do Kernel do Linux.
+[^NT5]: RTFM é a sigla em inglês para "read the fucking manual".
+[^NT6]: STFW é a sigla em inglês para "search the fucking web".
