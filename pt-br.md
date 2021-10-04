@@ -411,7 +411,75 @@ Esses flamers são lamers que não têm a menor idéia do que dizem, mas acredit
 Não se deixe levar por uma flamewar também. É melhor ignorar a maioria das agressões - depois de verificar se são realmente agressões, e não indicadores das maneiras pelas quais você errou ou respostas habilmente cifradas para sua pergunta real (isso também acontece).
     
 ## Perguntas que não devem ser feitas
+    
+Aqui estão algumas perguntas estúpidas clássicas e o que os hackers pensam quando não as respondem.
+
+P: Onde posso encontrar o programa ou recurso X?
+R: O mesmo lugar que eu encontraria, idiota - na outra extremidade de uma pesquisa na web. Meu Deus, todo mundo ainda não sabe como usar o [Google](http://www.google.com/)?
+
+P: Como posso usar X para fazer Y?
+R: Se o que você quer é fazer Y, deve fazer essa pergunta sem pressupor o uso de um método que pode não ser apropriado. Perguntas dessa forma freqüentemente indicam uma pessoa que não é meramente ignorante sobre X, mas confusa sobre o problema Y que está resolvendo e muito fixada nos detalhes de sua situação particular. Geralmente, é melhor ignorar essas pessoas até que elas definam melhor seu problema.
+
+P: Como posso configurar meu prompt de shell?
+R: Se você for inteligente o suficiente para fazer essa pergunta, será inteligente o suficiente para RTFM e descobrir por si mesmo.
+
+P: Posso converter um documento AcmeCorp em um arquivo TeX usando o conversor de arquivos Bass-o-matic?
+R: Experimente e veja. Se você fizesse isso, (a) aprenderia a resposta e (b) pararia de perder meu tempo.
+
+P: Meu {programa, configuração, instrução SQL} não funciona
+R: Isso não é uma pergunta, e não estou interessado em bancar o detetive para arrancar de você sua pergunta real - tenho coisas melhores para fazer. Ao ver algo assim, minha reação normalmente é uma das seguintes:
+* você tem mais alguma coisa a acrescentar?
+* oh, que pena, espero que conserte.
+* e isso tem exatamente o que haver comigo?
+
+P: Estou tendo problemas com minha máquina Windows. Você pode ajudar?
+R: Sim. Jogue fora esse lixo da Microsoft e instale um sistema operacional de código aberto como Linux ou BSD.
+
+Nota: você pode fazer perguntas relacionadas a máquinas Windows se elas forem sobre um programa que possui uma versão oficial do Windows ou interage com máquinas Windows (por exemplo, Samba). Só não se surpreenda com a resposta de que o problema é com o Windows e não com o programa, porque o Windows está tão quebrado que geralmente é esse o caso.
+
+P: Meu programa não funciona. Acho que o sistema X não funciona.
+R: Embora seja possível que você seja a primeira pessoa a notar uma deficiência óbvia em chamadas de sistema e bibliotecas muito usadas por centenas ou milhares de pessoas, é bem mais provável que você esteja totalmente sem noção. Alegações extraordinárias exigem evidências extraordinárias; quando você faz uma reclamação como esta, deve suportá-la com uma documentação clara e exaustiva do problema relatado.
+
+P: Estou tendo problemas para instalar o Linux ou o X. Você pode ajudar?
+R: Não. Eu precisaria de acesso prático à sua máquina para solucionar isso. Peça ajuda prática ao seu grupo local de usuários do Linux. (Você pode encontrar uma lista de grupos de usuários [aqui](http://www.linux.org/groups/index.html).)
+
+Nota: perguntas sobre a instalação do Linux podem ser apropriadas se você estiver em um fórum ou lista de e-mail sobre uma distribuição específica e o problema é com essa distro; ou em fóruns de grupos de usuários locais. Nesse caso, certifique-se de descrever os detalhes exatos do problema. Mas faça uma pesquisa cuidadosa primeiro, incluindo o termo "linux" e todas as peças de hardware suspeitas.
+
+P: Como posso quebrar privilégios de root / roubar canais / ler o e-mail de alguém?
+R: Você é um canalha por querer fazer essas coisas e um idiota por pedir a ajuda de um hacker.
+
 ## Boas e más perguntas
+    
+Finalmente, vou ilustrar como fazer perguntas de maneira inteligente por meio de exemplos; pares de perguntas sobre o mesmo problema, uma feita de maneira estúpida e a outra de maneira esperta.
+
+**Estúpida:** Onde posso encontrar informações sobre o Foonly Flurbamatic?
+    Esta pergunta implora por "STFW" como resposta.
+    
+**Esperta:** Usei o Google para tentar encontrar “Foonly Flurbamatic 2600” na web, mas não obtive resultados úteis. Posso obter uma indicação das informações de programação neste dispositivo?
+    Este já foi buscar na porra da web e parece que pode haver um problema real.
+
+**Estúpida:** Não consigo fazer o código do projeto foo compilar. Por que ele não funciona?
+    A pessoa presume que outra pessoa estragou tudo. Arrogante idiota ...
+    
+**Esperta:** O código do projeto foo não está compilando no Nulix versão 6.2. Eu li o FAQ, mas não contém nada sobre problemas relacionados ao Nulix. Aqui está uma transcrição da minha tentativa de compilação; é algo que eu fiz?
+    A pessoa especificou o ambiente, leu o FAQ, está mostrando o erro e não está assumindo que seus problemas são culpa de outra pessoa. Este pode valer a pena alguma atenção.
+
+**Estúpida:** Estou tendo problemas com minha placa-mãe. Alguém pode ajudar?
+    A resposta de um hacker aleatório a isso provavelmente será “Certo. Você também precisa arrotar e trocar fraldas? ” seguido por um soco na tecla delete.
+
+**Esperta:** Experimentei X, Y e Z na placa-mãe S2464. Quando isso não funcionou, tentei A, B e C. Observe o curioso sintoma quando tentei C. Obviamente, o florbish é grommicking, mas os resultados não são o que se poderia esperar. Quais são as causas comuns de grommicking em placas-mãe Athlon MP? Alguém tem ideias para mais testes que posso executar para identificar o problema?
+    Essa pessoa, por outro lado, parece digna de uma resposta. Ele/ela exibiu inteligência para resolver problemas em vez de esperar passivamente que uma resposta caísse do céu.
+
+Na última pergunta, observe a diferença sutil, mas importante, entre exigir "Dê-me uma resposta" e "Por favor, me ajude a descobrir quais diagnósticos adicionais posso executar para alcançar a iluminação."
+
+Na verdade, a forma dessa última pergunta é baseada em um incidente real que aconteceu em agosto de 2001 na lista de discussão do kernel do linux (lkml). Fui eu (Eric) quem fez a pergunta daquela vez. Eu estava vendo travamentos misteriosos em uma placa-mãe Tyan S2462. Os membros da lista forneceram as informações críticas de que eu precisava para resolvê-los.
+
+Ao fazer a pergunta da maneira que fiz, dei às pessoas algo para mastigar; Tornei mais fácil e atraente o envolvimento deles. Demonstrei respeito pela capacidade de meus colegas e os convidei a me consultar como colega. Também demonstrei respeito pelo valor do tempo deles, contando-lhes os becos sem saída que eu já havia explorado.
+
+Posteriormente, quando agradeci a todos e comentei o quão bem o processo havia funcionado, um membro do lkml observou que achava que tinha funcionado não porque eu fosse um “conhecido” daquela lista, mas porque fiz a pergunta da forma adequada.
+
+Os hackers são, de certa forma, uma meritocracia implacável; Tenho certeza de que ele estava certo e que, se eu tivesse me comportado como uma esponja, teria sido atacado ou ignorado, não importa quem eu fosse. Sua sugestão de que eu escrevesse todo o incidente como instrução para outras pessoas levou diretamente à composição deste guia.
+    
 ## Se você não obtiver uma resposta
 
 Se você não obtiver uma resposta, não leve para o lado pessoal achando que não queremos ajudá-lo. Às vezes, os membros do grupo questionado podem simplesmente não saber a resposta. Nenhuma resposta não é o mesmo que ser ignorado, embora seja difícil perceber a diferença de fora.
@@ -427,10 +495,39 @@ Existem também muitas empresas comerciais com as quais você pode contratar par
 Para softwares populares como o Linux, existem pelo menos 10.000 usuários por desenvolvedor.[^NT7] Simplesmente não é possível para uma pessoa atender as chamadas de suporte de mais de 10.000 usuários. Lembre-se de que, mesmo que tenha que pagar pelo suporte, você ainda está pagando muito menos do que se tivesse que comprar o software também (e o suporte para software de código fechado é geralmente mais caro e menos competente do que o suporte para software de código aberto).
     
 ## Como responder perguntas de forma útil
+    
+_Seja gentil._ O estresse relacionado a problemas pode fazer as pessoas parecerem rudes ou estúpidas, mesmo quando não o são.
+
+_Responda a um primeiro equívico off-line._ Não há necessidade de humilhação pública para alguém que pode ter cometido um erro honesto. Um verdadeiro novato pode não saber como pesquisar arquivos ou onde o FAQ está armazenado ou publicado.
+
+_Se você não tem certeza, deixe isso claro!_ Uma resposta errada, mas que soa autoritária, é pior do que nenhuma. Não indique a ninguém o caminho errado simplesmente porque é divertido soar como um especialista. Seja humilde e honesto; dê um bom exemplo para quem fez a pergunta e para seus pares.
+
+_Se você não pode ajudar, não atrapalhe._ Não faça piadas sobre procedimentos que podem destruir a configuração do usuário - o pobre coitado pode interpretar isso como instruções.
+
+_Faça perguntas investigativas para obter mais detalhes._ Se você for bom nisso, quem trouxe o assunto aprenderá algo - e você também. Tente transformar a pergunta ruim em uma boa; lembre-se de que já fomos todos novatos.
+
+Embora resmungar RTFM às vezes seja justificado ao responder a alguém que é apenas um preguiçoso, indicar o caminho para a documentação (mesmo que seja apenas uma sugestão para uma busca no Google por uma palavra-chave) é melhor.
+
+_Se você vai responder à pergunta, agregue valor._ Não sugira soluções alternativas quando alguém estiver usando a ferramenta ou abordagem errada. Sugira boas ferramentas. Reformule a pergunta.
+
+Responda à pergunta real! Se quem pergunta foi tão meticuloso a ponto de fazer sua pesquisa e incluiurna consulta que X, Y, Z, A, B e C já foram tentados sem bom resultado, é extremamente inútil responder com "Tente A ou B ”, ou com um link para algo que diz apenas:“ Experimente X, Y, Z, A, B ou C. ”.
+
+_Ajude sua comunidade a aprender com a pergunta._ Quando você responder a uma boa pergunta, pergunte-se “Como a documentação relevante ou FAQ tem que mudar para que ninguém tenha que responder isso novamente?” Em seguida, envie um patch para o mantenedor do documento.
+
+Se você fez uma pesquisa para responder à pergunta, _narre suas habilidades de fazer buscas em vez de escrever como se tivesse arrancado a resposta da bunda._ Responder a uma boa pergunta é como dar uma refeição a uma pessoa faminta, mas ensinar-lhes habilidades de pesquisa por meio do exemplo é mostrar-lhes como cultivar alimentos para o resto da vida.
+    
 ## Fontes relacionadas
+
+Se você precisar de instruções básicas sobre como funcionam os computadores pessoais, Unix e a Internet, consulte o [The Unix and Internet Fundamentals HOWTO](http://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/).
+
+Quando você lança software ou escreve patches para software, tente seguir as orientações do [Software Release Practice HOWTO](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html).
+    
 ## Reconhecimentos
 
+Evelyn Mitchell contribuiu com alguns exemplos de perguntas estúpidas e inspirou a seção “Como dar uma boa resposta”. Mikhail Ramendik contribuiu com algumas sugestões particularmente valiosas de melhorias.
 
+    
+## Notas de tradução
 [^NT1]: Trocadilho em inglês com as palavras "user" (usuário) e "loser" (otário).
 [^NT2]: Stack Exchange é um grupo de sites de perguntas e respostas do qual o Stack Overflow faz parte.
 [^NT3]: É assim inclusive a visualização padrão do GMail, ferramenta atualmente (2021) mais utilizada para leitura de e-mails.
