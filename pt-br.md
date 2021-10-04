@@ -389,9 +389,43 @@ As observações de Jeff Bigler sobre os [filtros diplomáticos](http://www.mit.
 Na próxima seção, falaremos sobre um problema diferente; o tipo de “grosseria” que você verá quando se comportar mal.
     
 ## Sobre não reagir como um otário
+    
+Provavelmente, você errará algumas vezes nos fóruns da comunidade de hackers - de maneiras detalhadas neste artigo ou semelhantes. E você será informado exatamente como você estragou tudo, possivelmente de forma explícita. Em público.
+
+Quando isso acontece, a pior coisa que você pode fazer é reclamar da situação, alegar ter sido agredido verbalmente, pedir para se desculparem, gritar, prender a respiração, ameaçar com processos, reclamar com os empregadores das pessoas, deixar a tampa do vaso sanitário levantada etc. aqui está o que você faz:
+
+Deixe isso para trás. É normal. Na verdade, é saudável e apropriado.
+
+Os padrões da comunidade não se mantêm sozinhos: eles são mantidos por pessoas que os aplicam ativamente, visivelmente, em público. Não reclame que todas as críticas deveriam ter sido enviadas por mensagem particular: não é assim que funciona. Nem é útil insistir que você foi pessoalmente insultado quando alguém comenta que uma de suas afirmações estava errada ou que seus pontos de vista divergem. Essas são atitudes de otário.
+
+Tem havido fóruns de hackers onde, por algum senso equivocado de hiper-cortesia, os participantes são proibidos de postar qualquer descoberta de falhas nas postagens de terceiros e recebem a mensagem “Não diga nada se não quiser ajudar o usuário”. O resultado disso é a saída de participantes qualificados para outro lugar faz com que esses espaços se percam em conversas sem sentido e se tornem inúteis como fóruns técnicos.
+
+Exageradamente “amigável” (como descrito) ou útil: escolha um.
+
+Lembre-se: quando aquele hacker lhe diz que você estragou tudo e (não importa o quão grosseiro seja) lhe diz para não fazer isso de novo, ele está se preocupando com (1) você e (2) com a comunidade dele. Seria muito mais fácil para ele ignorá-lo e filtrá-lo para fora de sua vida. Se você não consegue ser grato, pelo menos tenha um pouco de dignidade. Não reclame e não espere ser tratado como uma boneca frágil só porque você é um recém-chegado com uma alma teatralmente hipersensível e delírios de ter direitos.
+
+Às vezes, as pessoas vão atacar você pessoalmente, atacar sem motivo aparente, mesmo que você não tenha estragado tudo (ou tenha estragado apenas em sua imaginação). Nesse caso, reclamar é a maneira de realmente estragar.
+
+Esses flamers são lamers que não têm a menor idéia do que dizem, mas acreditam que são especialistas, ou pretensos psicólogos te testando para ver se você vai errar. Os outros leitores os ignoram ou encontram maneiras de lidar com eles por conta própria. O comportamento dos flamers cria problemas para eles mesmos, que não precisam preocupar você.
+
+Não se deixe levar por uma flamewar também. É melhor ignorar a maioria das agressões - depois de verificar se são realmente agressões, e não indicadores das maneiras pelas quais você errou ou respostas habilmente cifradas para sua pergunta real (isso também acontece).
+    
 ## Perguntas que não devem ser feitas
 ## Boas e más perguntas
 ## Se você não obtiver uma resposta
+
+Se você não obtiver uma resposta, não leve para o lado pessoal achando que não queremos ajudá-lo. Às vezes, os membros do grupo questionado podem simplesmente não saber a resposta. Nenhuma resposta não é o mesmo que ser ignorado, embora seja difícil perceber a diferença de fora.
+
+Em geral, simplesmente reenviar sua pergunta é uma má ideia. Isso será visto como inutilmente irritante. Tenha paciência: a pessoa com sua resposta pode estar em um fuso horário diferente e dormindo. Ou pode ser que sua pergunta não tenha sido bem formulada para começar.
+
+Existem outras fontes de ajuda que você pode consultar, geralmente fontes mais bem adaptadas às necessidades de um novato.
+
+Existem muitos fóruns online e grupos de usuários locais que são entusiastas de softwares, mesmo que eles nunca tenham escrito nenhum software. Esses grupos costumam se formar para que as pessoas possam ajudar umas às outras e ajudar novos usuários.
+
+Existem também muitas empresas comerciais com as quais você pode contratar para obter ajuda, tanto grandes quanto pequenas. Não desanime com a ideia de ter que pagar por uma pequena ajuda! Afinal, se o motor do seu carro explodir, é provável que você o leve a uma oficina e pague para consertá-lo. Mesmo que o software não tenha custado nada, você não pode esperar que o suporte seja sempre gratuito.
+
+Para softwares populares como o Linux, existem pelo menos 10.000 usuários por desenvolvedor.[^NT7] Simplesmente não é possível para uma pessoa atender as chamadas de suporte de mais de 10.000 usuários. Lembre-se de que, mesmo que tenha que pagar pelo suporte, você ainda está pagando muito menos do que se tivesse que comprar o software também (e o suporte para software de código fechado é geralmente mais caro e menos competente do que o suporte para software de código aberto).
+    
 ## Como responder perguntas de forma útil
 ## Fontes relacionadas
 ## Reconhecimentos
@@ -403,3 +437,4 @@ Na próxima seção, falaremos sobre um problema diferente; o tipo de “grosser
 [^NT4]: Alan Cox é um desenvolvedores mantenedores do Kernel do Linux.
 [^NT5]: RTFM é a sigla em inglês para "read the fucking manual".
 [^NT6]: STFW é a sigla em inglês para "search the fucking web".
+[^NT7]: Números de maior de 2014.
