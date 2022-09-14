@@ -453,22 +453,22 @@ R: Você é um canalha por querer fazer essas coisas e um idiota por pedir a aju
 Finalmente, vou ilustrar como fazer perguntas de maneira inteligente por meio de exemplos; pares de perguntas sobre o mesmo problema, uma feita de maneira estúpida e a outra de maneira esperta.
 
 **Estúpida:** Onde posso encontrar informações sobre o Foonly Flurbamatic?
-    Esta pergunta implora por "STFW" como resposta.
+    **Esta pergunta implora por "STFW" como resposta.**
     
 **Esperta:** Usei o Google para tentar encontrar “Foonly Flurbamatic 2600” na web, mas não obtive resultados úteis. Posso obter uma indicação das informações de programação neste dispositivo?
-    Este já foi buscar na porra da web e parece que pode haver um problema real.
+    **Este já foi buscar na porra da web e parece que pode haver um problema real.**
 
 **Estúpida:** Não consigo fazer o código do projeto foo compilar. Por que ele não funciona?
-    A pessoa presume que outra pessoa estragou tudo. Arrogante idiota ...
+    **A pessoa presume que outra pessoa estragou tudo. Arrogante idiota ...**
     
 **Esperta:** O código do projeto foo não está compilando no Nulix versão 6.2. Eu li o FAQ, mas não contém nada sobre problemas relacionados ao Nulix. Aqui está uma transcrição da minha tentativa de compilação; é algo que eu fiz?
-    A pessoa especificou o ambiente, leu o FAQ, está mostrando o erro e não está assumindo que seus problemas são culpa de outra pessoa. Este pode valer a pena alguma atenção.
+    **A pessoa especificou o ambiente, leu o FAQ, está mostrando o erro e não está assumindo que seus problemas são culpa de outra pessoa. Este pode valer a pena alguma atenção.**
 
 **Estúpida:** Estou tendo problemas com minha placa-mãe. Alguém pode ajudar?
-    A resposta de um hacker aleatório a isso provavelmente será “Certo. Você também precisa arrotar e trocar fraldas? ” seguido por um soco na tecla delete.
+    **A resposta de um hacker aleatório a isso provavelmente será “Certo. Você também precisa arrotar e trocar fraldas? ” seguido por um soco na tecla delete.**
 
 **Esperta:** Experimentei X, Y e Z na placa-mãe S2464. Quando isso não funcionou, tentei A, B e C. Observe o curioso sintoma quando tentei C. Obviamente, o florbish é grommicking, mas os resultados não são o que se poderia esperar. Quais são as causas comuns de grommicking em placas-mãe Athlon MP? Alguém tem ideias para mais testes que posso executar para identificar o problema?
-    Essa pessoa, por outro lado, parece digna de uma resposta. Ele/ela exibiu inteligência para resolver problemas em vez de esperar passivamente que uma resposta caísse do céu.
+    **Essa pessoa, por outro lado, parece digna de uma resposta. Ele/ela exibiu inteligência para resolver problemas em vez de esperar passivamente que uma resposta caísse do céu.**
 
 Na última pergunta, observe a diferença sutil, mas importante, entre exigir "Dê-me uma resposta" e "Por favor, me ajude a descobrir quais diagnósticos adicionais posso executar para alcançar a iluminação."
 
