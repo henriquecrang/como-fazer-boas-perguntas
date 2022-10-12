@@ -462,7 +462,7 @@ Finalmente, vou ilustrar como fazer perguntas de maneira inteligente por meio de
     A pessoa presume que outra pessoa estragou tudo. Arrogante idiota ...
     
 **Esperta:** O código do projeto foo não está compilando no Nulix versão 6.2. Eu li o FAQ, mas não contém nada sobre problemas relacionados ao Nulix. Aqui está uma transcrição da minha tentativa de compilação; é algo que eu fiz?
-    A pessoa especificou o ambiente, leu o FAQ, está mostrando o erro e não está assumindo que seus problemas são culpa de outra pessoa. Este pode valer a pena alguma atenção.
+    **A pessoa especificou o ambiente, leu o FAQ, está mostrando o erro e não está assumindo que seus problemas são culpa de outra pessoa. Este pode valer a pena alguma atenção.**
 
 **Estúpida:** Estou tendo problemas com minha placa-mãe. Alguém pode ajudar?
     A resposta de um hacker aleatório a isso provavelmente será “Certo. Você também precisa arrotar e trocar fraldas? ” seguido por um soco na tecla delete.
